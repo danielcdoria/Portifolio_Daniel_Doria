@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*Estilo Geral*/
+:root{
+    --cor1: #242DB3;
+    --co2: #333880;
+    --cor3: #010FE6;
+    --cor4: #2E304C;
+    --cor5: #292933;
+    --cor6: #0073E5;
+    --cor7: #0058E5;
+
+    --cor-verde1: #00FF08;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+/* Estilo do Header */
+header{
+    padding: 25px 4%;
+}
+
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--cor6);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #0072e5cb;
+}
+
+img#grande{
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #0072e59c;
+    width: 400px;
+}
+
+/*TOPO DO SITE*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 48px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: var(--cor6);
+    font-size: 60px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
