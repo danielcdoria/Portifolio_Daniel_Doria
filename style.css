@@ -98,7 +98,9 @@ header nav.menu-desktop ul li{
     padding: 0 40px;
 }
 
-
+div#btn-menu{
+    display: none;
+}
 
 img#grande{
     border-radius: 50%;
@@ -441,6 +443,10 @@ footer .line-footer p a{
 
     img#logo{
         width: 150px;
+    }
+
+    div#btn-menu{
+        display: block;
     }
 
     /* TOPO DO SITE */
