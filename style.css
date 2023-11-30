@@ -417,7 +417,7 @@ footer .line-footer p a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1118px){
     /* GERAIS */
     .flex{
         flex-direction: column;
