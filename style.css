@@ -442,6 +442,28 @@ section.portfolio .flex{
     transition: .3s;
 }
 
+.abrir{
+    padding: 13px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #5c7fa1;
+    box-shadow: 0px 0px 20px rgb(0, 75, 150);
+    border-radius: 50px;
+    margin: 0px 5px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+#btn-1,#btn-2, #btn-3{
+    display: none;
+}
+
+.abrir:hover{
+    color: rgb(219, 219, 253);
+    background-color: #435a72;
+    
+}
+
 /*ESTILO DO FORMULÁRIO*/
 
 section.formulario{
@@ -681,6 +703,15 @@ footer .line-footer p a{
 
     section.portfolio .flex{
         gap: 45px;
+    }
+
+    #btn-1,#btn-2, #btn-3{
+        display: block;
+        margin: auto;
+    }
+
+    #btn-4, #btn-5, #btn-6{
+        display: none;
     }
 
     /* FORMULÁRIO */
