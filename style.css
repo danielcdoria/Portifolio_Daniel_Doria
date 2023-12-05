@@ -413,6 +413,7 @@ section.portfolio .flex{
     position: relative;
     background-position: 100% 0%;  
     transition: 3s;
+    box-shadow: 0px 0px 80px #0a77e441;
 }
 
 .img-port:hover{

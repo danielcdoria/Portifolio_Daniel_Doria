@@ -42,6 +42,49 @@ revelar.reveal(".efeito-txt-sobre",
     
 })
 
+//PORTIFÓLIO
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+})
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+    delay: 100,
+})
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+    delay: 200,
+})
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+    delay: 300,
+})
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+    delay: 400,
+})
+
+revelar.reveal(".btn-acessar", 
+{
+    duration: 1500,
+    distance: "90px",
+    delay: 500,
+})
+
 // CONTATO 
 
 revelar.reveal(".input-txt1", 
