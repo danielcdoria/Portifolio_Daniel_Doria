@@ -219,6 +219,67 @@ section.topo-do-site .flex{
     font-weight: bold;
 }
 
+.txt-animado{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.txt-animado span#troca{
+    position: relative;
+}
+
+.txt-animado span#troca::before{
+    content: "";
+    color: #97b7d6;
+    animation: palavras 22s infinite;
+}
+
+.txt-animado span#troca::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #97b7d6;
+    right: -10px;
+    animation: cursor .8s infinite, digita 22s steps(13) infinite;
+    width: calc(100% + 16px);
+    background-color: #000;
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 16px);
+    }
+}
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #000;
+    }
+}
+
+@keyframes palavras {
+    0%,20%{
+        content: "DE IDEIAS REAIS.";
+    }
+    21%,40%{
+        content: "DO AMANHÃ.";
+    }
+    41%,60%{
+        content: "DE INOVAÇÃO.";
+    }
+    61%,80%{
+        content: "DE CRIATIVIDADE.";
+    }
+    81%,100%{
+        content: "DE EFICIÊNCIA.";
+    }
+}
+
 .topo-do-site .txt-topo-site h1 span{
     color: var(--cor6);
     font-size: 60px;
@@ -499,6 +560,16 @@ footer .line-footer p a{
         padding: 20px 8% 40px 12%;
     }    
 
+    .txt-animado{
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    p#foco{
+        margin-top: 18px;
+    }
+
     .topo-do-site h1{
         font-size: 35px;
         font-weight: bold;
@@ -510,6 +581,57 @@ footer .line-footer p a{
         box-shadow: 0px 0px 50px #0072e59c;
         width: 300px;
         transform: translate(-10px, -8px);
+    }
+
+    .txt-animado span#troca::before{
+        content: "";
+        color: #97b7d6;
+        animation: palavras 22s infinite;
+    }
+    
+    .txt-animado span#troca::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-left: 2px solid #97b7d6;
+        right: -10px;
+        animation: cursor .8s infinite, digita 22s steps(13) infinite;
+        width: calc(100% + 12px);
+        background-color: #000;
+    }
+    
+    @keyframes digita {
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+            width: 0;
+        }
+    
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 12px);
+        }
+    }
+    
+    @keyframes cursor {
+        0%{
+            border-left: 2px solid #000;
+        }
+    }
+    
+    @keyframes palavras {
+        0%,20%{
+            content: "DE IDEIAS REAIS.";
+        }
+        21%,40%{
+            content: "DO AMANHÃ.";
+        }
+        41%,60%{
+            content: "DE INOVAÇÃO.";
+        }
+        61%,80%{
+            content: "DE CRIATIVIDADE.";
+        }
+        81%,100%{
+            content: "DE EFICIÊNCIA.";
+        }
     }
 
     /*ESTILO DAS ESPECIALIDADES*/
