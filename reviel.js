@@ -30,7 +30,7 @@ revelar.reveal(".efeito-img-sobre",
     duration: 1500,
     distance: "90px",
     delay: 200,
-
+    origin: "right"
 })
 
 
