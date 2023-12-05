@@ -302,7 +302,7 @@ section.sobre .flex{
 /*ESTILO PORTIFÓLIO*/
 
 section.portfolio{
-    padding: 50px 5% 110px 2%;
+    padding: 50px 4% 110px 4%;
 }
 
 section.portfolio .flex{
@@ -510,7 +510,8 @@ footer .line-footer p a{
 
 
     section.portfolio{
-        padding: 50px 8% 110px 8%;
+        padding: 50px 5% 110px 8%;
+        
     }
 
     .img-port{
