@@ -19,7 +19,7 @@ revelar.reveal(".efeito-img-topo",
 
 revelar.reveal(".titulo", 
 {
-    duration: 2500,
+    duration: 1600,
     distance: "50px"
 })
 
