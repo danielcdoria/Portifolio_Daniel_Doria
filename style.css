@@ -72,26 +72,38 @@ h2.titulo span{
     color: #0a77e4;
 }
 
-.topo{
-    background-color: #000;
-    border-radius: 50%;
-}
-
-.scroll-to-top {
+/* BOTÃO VOLTAR AO TOPO */
+.topo {
     position: fixed;
-    bottom: -50px;
-    right: 20px;
-    transition: bottom 0.3s ease-in-out;
+    bottom: 20px;
+    right: 20px; /* Alterado para 20px para manter o botão à direita */
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-.scroll-to-top.show-button {
-    bottom: 20px; /* Mostrar o botão */
+.show-button .topo {
+    visibility: visible;
+    opacity: 1;
 }
 
+.topo svg {
+    fill: #0a77e4;
+    width: 50px;
+    height:50px;
+}
 
 /* Estilo do Header */
 header{
-    padding: 25px 4%;
+    padding: 15px 4%;
 }
 
 img#logo{
@@ -446,6 +458,17 @@ footer .line-footer p a{
 
 @media screen and (max-width: 1118px){
     /* GERAIS */
+
+    .topo svg {
+        fill: #0a77e4;
+        width: 40px;
+        height:40px;
+    }
+
+    .topo{
+        width: 50px;
+        height: 50px;
+    }
 
     .flex{
         flex-direction: column;
