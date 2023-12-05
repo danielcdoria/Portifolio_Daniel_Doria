@@ -25,8 +25,7 @@ body{
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    padding-right: 3%;
-
+    padding-left: 3%;
 }
 
 .interface{
@@ -36,10 +35,6 @@ body{
 
 .flex{
     display: flex;
-}
-
-.efeito-txt-topo, .efeito-img-topo, .titulo, .efeito-img-sobre, .efeito-txt-sobre, .input-txt1, .input-txt2, .input-txt3, .input-txt4, .input-txt5, .efeito-img-final, .efeito-btn-final, .final, .efeito-header{
-    visibility: hidden;
 }
 
 .btn-contato button{
@@ -428,6 +423,7 @@ footer .line-footer p a{
 
 @media screen and (max-width: 1118px){
     /* GERAIS */
+
     .flex{
         flex-direction: column;
     }
