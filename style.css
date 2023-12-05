@@ -302,9 +302,9 @@ section.sobre .flex{
 /*ESTILO PORTIFÓLIO*/
 
 section.portfolio{
-    padding: 50px 4% 110px 4%;
-    box-shadow: 0px 0px 40px  10px #ffffff1d;
+    padding: 50px 2% 110px 6%;
     transform: translate(-10px, 0px);
+
 }
 
 section.portfolio .flex{
