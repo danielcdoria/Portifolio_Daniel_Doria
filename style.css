@@ -107,7 +107,7 @@ header{
 }
 
 img#logo{
-    transform: translate(-30px , -15px);
+    transform: translate(-10px , -15px);
 }
 
 header > .interface{
@@ -221,7 +221,7 @@ section.topo-do-site .flex{
 
 .txt-animado{
     color: white;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -242,7 +242,7 @@ section.topo-do-site .flex{
     border-left: 2px solid #97b7d6;
     right: -10px;
     animation: cursor .8s infinite, digita 22s steps(13) infinite;
-    width: calc(100% + 16px);
+    width: calc(100% + 13px);
     background-color: #000;
 }
 
@@ -252,7 +252,7 @@ section.topo-do-site .flex{
     }
 
     5%,20%,25%,40%,45%,60%,65%,80%,85%{
-        width: calc(100% + 16px);
+        width: calc(100% + 13px);
     }
 }
 
@@ -273,7 +273,7 @@ section.topo-do-site .flex{
         content: "DE INOVAÇÃO.";
     }
     61%,80%{
-        content: "DE CRIATIVIDADE.";
+        content: "CRIATIVOS.";
     }
     81%,100%{
         content: "DE EFICIÊNCIA.";
@@ -517,7 +517,11 @@ footer .line-footer p a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1118px){
+@media screen and (min-width: 900px){
+    
+}
+
+@media screen and (max-width: 1119px){
     /* GERAIS */
 
     .flex{
