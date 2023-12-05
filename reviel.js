@@ -30,7 +30,6 @@ revelar.reveal(".efeito-img-sobre",
     duration: 1500,
     distance: "90px",
     delay: 200,
-    origin: "right"
 })
 
 
@@ -39,7 +38,6 @@ revelar.reveal(".efeito-txt-sobre",
     duration: 1500,
     distance: "90px",
     delay: 300,
-    origin:"left"
     
 })
 
