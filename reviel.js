@@ -12,7 +12,10 @@ revelar.reveal(".efeito-img-topo",
 {
     duration: 1500,
     distance: "90px",
-    delay: 400
+    //delay: 200,
+    //origin: "top"
+    delay: 400,
+    origin
 })
 
 // Títulos titulo
