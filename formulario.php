@@ -1,9 +1,9 @@
 <?php
 
-    $nome = addslashes($_POST["nome"]);
-    $email = addslashes($_POST["email"]);
-    $telefone = addslashes($_POST["telefone"]);
-    $mensagem = addslashes($_POST["mensagem"]);
+    $nome = addslashes($_POST['nome']);
+    $email = addslashes($_POST['email']);
+    $telefone = addslashes($_POST['telefone']);
+    $mensagem = addslashes($_POST['mensagem']);
 
     $para = "danielcarvalhodoria@gmail.com";
     $assunto = "Coletas de dados - Doria Pages";
